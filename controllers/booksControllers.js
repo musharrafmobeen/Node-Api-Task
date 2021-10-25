@@ -1,5 +1,3 @@
-const jwt = require("jsonwebtoken");
-
 async function getAllBooks(req, reply) {
   let data = [];
   console.log(this);
